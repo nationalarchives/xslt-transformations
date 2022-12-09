@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ant-xspec" default="test">
+
+    <property environment="env"/>
+    <property name="xspec.project.dir" location="${env.XSPEC_HOME}" />
+    <import file="${xspec.project.dir}/build.xml" />
+    <property name="xspec.base.dir" location="${basedir}/target" />
+
+    <target name="test">
+        <!--FIXME-->
+        <!--<xspec xspec.xml="src/test/xspec/add-born-digital-metadata-to-sip.xspec" />-->
+
+<!--        <xspec xspec.xml="src/test/xspec/digitised/merge-transcription-closure-with-tech-acq.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/digitised/merge-metadata-files.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/digitised/add-tech-env-to-metadata.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/digitised/add-digitised-record-metadata-to-sip-du.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/digitised/add-digitised-record-metadata-to-sip-file.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/digitised/common-digitised-templates.xspec" />-->
+
+<!--        <xspec xspec.xml="src/test/xspec/create-closure.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/add-generated-catalogue-references.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/csv-to-xml_v2.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/csv-to-xml-UKSC_v2.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/csv-to-xml-UKSC-2_v2.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/common-metadata-functions.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/decode-uri-function.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/du-path-function.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/hgCleanse.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/modify-sip-metadata-alternative.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/modify-sip-metadata.xspec" />-->
+<!--        <xspec xspec.xml="src/test/xspec/modify-sip-metadata-surrogates.xspec" />-->
+    </target>
+
+    <target name="echoproperties">
+        <echoproperties />
+    </target>
+
+</project>
