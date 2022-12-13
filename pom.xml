@@ -92,14 +92,14 @@
             <version>${bdd-common-version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>uk.gov.tna.dri.supplementary</groupId>
-            <artifactId>schematron</artifactId>
-            <version>${schematron-version}</version>
-            <classifier>zip-schematron</classifier>
-            <type>zip</type>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>uk.gov.tna.dri.supplementary</groupId>-->
+<!--            <artifactId>schematron</artifactId>-->
+<!--            <version>${schematron-version}</version>-->
+<!--            <classifier>zip-schematron</classifier>-->
+<!--            <type>zip</type>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>uk.gov.tna.dri.supplementary</groupId>
             <artifactId>schema</artifactId>

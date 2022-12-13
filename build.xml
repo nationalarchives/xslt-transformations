@@ -3,9 +3,9 @@
 <project name="ant-xspec" default="test">
 
     <property environment="env"/>
-    <property name="xspec.project.dir" location="${env.XSPEC_HOME}" />
-    <import file="${xspec.project.dir}/build.xml" />
-    <property name="xspec.base.dir" location="${basedir}/target" />
+<!--    <property name="xspec.project.dir" location="${env.XSPEC_HOME}" />-->
+<!--    <import file="${xspec.project.dir}/build.xml" />-->
+<!--    <property name="xspec.base.dir" location="${basedir}/target" />-->
 
     <target name="test">
         <!--FIXME-->
